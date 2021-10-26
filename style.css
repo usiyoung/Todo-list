@@ -1,0 +1,96 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 ;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background: center/ cover url(img/mathias-p-r-reding-N5pfn_06jLU-unsplash.jpg)
+}
+
+ul{
+    list-style: none;
+    padding: 0 ;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.container{
+    position: relative;
+    background: center/cover url('img/karalina-s-8V7ymFP8-0M-unsplash.jpg') 
+    no-repeat;
+    padding: 16px;
+    width: 50vh;
+    border-radius: 8px;
+    box-shadow: 1px 111px 30px 4px rgba(194, 159, 99, 0.589);    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Dokdo', cursive;
+    font-size: 4rem;
+    margin: 0px 0 -10px 0 ;
+}
+
+h3{
+    margin: 0 0 0 1px;
+    font-weight: 200;
+    padding: 5px;
+    background: #ddc01d96;
+}
+
+.list{
+    height: 60vh;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.list__item{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background: #000000a2;
+    padding: 10px;
+    color: rgb(235, 235, 235);
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 10px 0 ;
+}
+
+.list__btn{
+    color: #eb8d22;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.list__item::-webkit-scrollbar,
+.list::-webkit-scrollbar,
+.list__content::-webkit-scrollbar   {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.form__input{
+    border: none;
+    width: 100%;
+    font-size: 1.5rem;
+    background: transparent;
+    color: #dbdbdb;
+    padding: 4px;
+    outline: none;
+}
+.form__btn{
+    font-size: 3rem;
+    color: #fac17f;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
