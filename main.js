@@ -38,6 +38,7 @@ function paintToDo(text){
         text,
         id: newId,
     }
+    li.scrollIntoView({block : 'center'});
     toDos.push(toDoObj);
     saveToDos(toDos);
 }
@@ -52,6 +53,8 @@ function handleSubmit(event){
     const currentValue = input.value;
     paintToDo(currentValue);
     input.value = '';
+    input.focus();
+
 }
 
 function loadToDos(){
@@ -60,12 +63,12 @@ function loadToDos(){
         const parsedToDos = JSON.parse(loadedToDos);
         parsedToDos.forEach(todo => {
             paintToDo(todo.text);
-            console.log(todo.text);
         })
     }
 }
 function init(){
     loadToDos();
+    input.focus();
     form.addEventListener('submit', handleSubmit);
 }
 
