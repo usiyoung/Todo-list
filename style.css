@@ -26,9 +26,10 @@ button{
     position: relative;
     background: center/cover url('img/karalina-s-8V7ymFP8-0M-unsplash.jpg') 
     no-repeat;
-    padding: 16px;
-    width: 50vh;
-    border-radius: 8px;
+    padding: 1em;
+    width: 40vw;
+    min-width: 25em;
+    border-radius: 0.5em;
     box-shadow: 1px 111px 30px 4px rgba(194, 159, 99, 0.589);    
 }
 
@@ -92,5 +93,16 @@ h3{
     width: 100%;
 }
 
+@media screen and (max-width: 25.875em) {
+    body{
+        background: none;
+        background-color: #eb8d22;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
 
+
+}
 
