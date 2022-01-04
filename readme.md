@@ -31,14 +31,8 @@ localStorage를 이용하기 전까지는 프로젝트를 새로고침(F5) 했�
 단지 브라우저에서 데이터를 저장해 사용하고 싶다면 `localStorage`를 사용해 앞 문제를 해결할 수 있습니다.
 
 
-## screen
->   다가오는 할로윈을 맞이하여 커스텀 해봤습니다.
-
-### 기록
-<img src="mdImg/screen2.gif">
-
-### 삭제 
-<img src="mdImg/screen3.gif">
-
-### 새로고침
-<img src="mdImg/screen4.gif">
+### + update pwa
+<p>
+<img width="300" alt="스크린샷 2022-01-04 오후 5 14 42" src="https://user-images.githubusercontent.com/85566273/148031039-27802d08-4bed-4ae7-9504-e29d8b4aff42.png"> 
+<img width="900" alt="스크린샷 2022-01-04 오후 5 14 42" src="https://user-images.githubusercontent.com/85566273/148030472-638cd6ce-c33f-4075-8f0e-1226715b02ef.png">
+</p>
