@@ -1,7 +1,5 @@
 # 할 일 기록
-🌘 Halloween ver.
 
-<img src="mdImg/screen1.png">
 
 [DEMO](https://angry-swanson-1161ad.netlify.app)
 
